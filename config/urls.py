@@ -22,5 +22,6 @@ urlpatterns = [
     path('registration/', include('registration.urls')),
     path("session/", include("session.urls")),
     path('api/student/', include('student.urls')),
-    path("", include("book_outlet.urls"))
+    path("api/jwt/", include("testjwt.urls")),
+    path("", include("book_outlet.urls")),
 ]

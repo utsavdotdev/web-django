@@ -21,3 +21,10 @@ def registration_form(request):
         form = RegistrationForm()
 
     return render(request, 'registration/form.html', {'form': form})
+
+
+def list_user(request):
+    users = Registration.objects.all()
+    script = "<script>alert('Hello, World!');</script>"
+    return render(request, 'registration/list.html', {'users': users,"test":script})
+
