@@ -8,7 +8,7 @@ djangorestframework==3.16.1
 djangorestframework_simplejwt==5.5.1
 djlint==1.36.4
 EditorConfig==0.17.1
-gunicorn==25.0.
+gunicorn==25.0
 h11==0.16.0
 jsbeautifier==1.15.4
 json5==0.13.0
